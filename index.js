@@ -7,4 +7,9 @@ function destructivelyAppendKitten()
   return kittens;
 }
 
+function destructivelyPrependKitten()
+{
+  kittens.push("Ralph");
+  return kittens;
+}
 
