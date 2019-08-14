@@ -14,6 +14,6 @@ function destructivelyPrependKitten()
 }
 function destructivelyRemoveLastKitten()
 {
-  kittens.unshift("Ralph");
+  kittens.pop("Ralph");
   return kittens;
 }
