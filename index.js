@@ -40,16 +40,3 @@ function prependKitten()
  return kittens3;
 }
 
-function removeLastKitten()
-{
- 
- var kittens2 = kittens.concat("Broom");
- return kittens2;
-}
-
-function removeFirstKitten()
-{
- 
- var kittens2 = kittens.concat("Broom");
- return kittens2;
-}
