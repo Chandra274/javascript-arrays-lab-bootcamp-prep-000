@@ -9,7 +9,7 @@ function destructivelyAppendKitten()
 
 function destructivelyPrependKitten()
 {
-  kittens.push("Ralph");
+  kittens.pop("Ralph");
   return kittens;
 }
 
